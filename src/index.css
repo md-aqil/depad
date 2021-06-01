@@ -1,10 +1,30 @@
+:root {
+  --primary:#2F80ED;
+  --white: #ffffff;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+   width: 80%; 
+   margin: auto;
+}
+
+.line-image {
+  background-image: url('./images/header-line.png');
+width: 100%;
+height: 289px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left;
+}
+
+.spacer {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 code {

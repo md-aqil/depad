@@ -1,0 +1,100 @@
+.text-center {
+    text-align: center;
+}
+
+.banner-heading {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57.0935px;
+    line-height: 65px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.primary {
+    color:var(--primary);
+
+}
+
+.banner-text-container {
+    width: 70%;
+       margin: auto;
+       margin-top: 103px;
+       background: white;
+       border-radius: 10px;
+       padding: 10px 73px;
+}
+
+.banner-para {
+    width: 51%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.banner-para .para {
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 162.02%;
+
+text-align: center;
+font-feature-settings: 'salt' on;
+
+color: #333333;
+}
+
+.banner-buttons .primary-btn{
+    font-family: 'Inter', sans-serif;
+    padding: 12px 40px;
+    background: var(--primary);
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: #FFFFFF;
+    border: none;
+    text-transform: capitalize;
+}
+
+.banner-buttons .default-btn{
+    font-family: 'Inter', sans-serif;
+    padding: 12px 40px;
+    background: #fff;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: var(--primary);
+    border: none;
+    text-transform: capitalize;
+    border: 1px solid var(--primary);
+}
+
+.banner-buttons > div {
+    display: inline-block;
+}
+
+.banner-buttons>div:first-child {
+    margin-right: 12px;
+}
+
+.banner-buttons {
+    margin-top: 2rem;
+}
+
+.banner-bottom-img {
+    position: absolute;
+    margin-left: 38.7rem;
+    margin-top: -11rem;
+    width: 54%;
+}
+
+.banner {
+    position: relative;
+}
