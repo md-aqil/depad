@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Row, Col } from 'antd';
-import arroLeft from '../images/arro-left.png';
-import arroRight from '../images/arro-right.png'
-import logo from '../images/upcomming-logo.png'
-import '../styles/upcomming.css';
+import arroLeft from '../../images/arro-left.png';
+import arroRight from '../../images/arro-right.png'
+import logo from '../../images/upcomming-logo.png'
+import '../../styles/upcomming.css';
 
 
 
@@ -67,17 +67,17 @@ function Upcomming() {
 
                         <div className="upcomming-info">
                             <div className="min">
-                                <p>min allocation</p>
+                                <p className="small-para">min allocation</p>
                                 <h1>0</h1>
                             </div>
 
                             <div className="max">
-                                <p>max allocation</p>
+                                <p className="small-para">max allocation</p>
                                 <h1>tba</h1>
                             </div>
 
                             <div className="access">
-                                <p>access</p>
+                                <p className="small-para">access</p>
                                 <h1>pols</h1>
                             </div>
 
@@ -109,17 +109,17 @@ function Upcomming() {
 
                         <div className="upcomming-info">
                             <div className="min">
-                                <p>min allocation</p>
+                                <p className="small-para">min allocation</p>
                                 <h1>0</h1>
                             </div>
 
                             <div className="max">
-                                <p>max allocation</p>
+                                <p className="small-para">max allocation</p>
                                 <h1>tba</h1>
                             </div>
 
                             <div className="access">
-                                <p>access</p>
+                                <p className="small-para">access</p>
                                 <h1>pols</h1>
                             </div>
 
@@ -146,23 +146,23 @@ function Upcomming() {
                         </div>
 
                         <div className="total-raise">
-                            <p>total raise</p>
+                            <p className="small-para">total raise</p>
                             <h1>$300k</h1>
                         </div>
 
                         <div className="upcomming-info">
                             <div className="min">
-                                <p>min allocation</p>
+                                <p className="small-para">min allocation</p>
                                 <h1>0</h1>
                             </div>
 
                             <div className="max">
-                                <p>max allocation</p>
+                                <p className="small-para">max allocation</p>
                                 <h1>tba</h1>
                             </div>
 
                             <div className="access">
-                                <p>access</p>
+                                <p className="small-para">access</p>
                                 <h1>pols</h1>
                             </div>
 

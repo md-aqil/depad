@@ -1,13 +1,13 @@
 
 import React from 'react';
 import { Row, Col } from 'antd';
-import '../styles/banner.css';
-import  bannerBottomImg  from '../images/banner-bottom-img.png';
+import '../../styles/banner.css';
+import  bannerBottomImg  from '../../images/banner-bottom-img.png';
 
 
 
 
-function Banner() {
+function Banner(props) {
   return (
     <div className="banner">
         <div className="banner-text-container text-center">
@@ -16,9 +16,22 @@ function Banner() {
 
        <div className="">
            <div className="banner-para">
-                <p className="para">
+
+              
+                <p className="para para-light-mode">
                     This beutiful collection of UI components is part of the recently released Purpose Design System. It is a powerful tool for Figma including 300+ ready
                 </p>
+
+                <div className="para-dark-mode">
+                     <p className="para">
+                    This beutiful collection of UI components is part of the recently released Purpose Design System. It is a powerful tool for Figma including 300+ ready
+                    </p>
+                    <p className="para">
+                    This beutiful collection of UI components is part of the recently released Purpose Design System. It is a powerful tool for Figma including 300+ ready
+                    </p>
+                </div>
+              
+               
             </div>
 
             <div className="text-center banner-buttons">

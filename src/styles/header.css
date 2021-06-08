@@ -25,6 +25,7 @@ padding: 26px 0px 0px 0px;
 }
 .night {
     padding: 0px 6px 4px 7px;
+    border-radius: 100px 0px 0px 100px;
 }
 
 
@@ -75,9 +76,10 @@ padding: 26px 0px 0px 0px;
 
   }
 
+
   .nav-buttons {
-    margin-left: 46px;
-    margin-right: -37px;
+    margin-left: 40px;
+    margin-right: -20px;
     margin-top: -4px;
   }
 
@@ -105,9 +107,49 @@ padding: 26px 0px 0px 0px;
     font-weight: 500;
     font-size: 14px;
     line-height: 12px;
-    background: #fff;
+    background: transparent;
     color: var(--primary);
     border: 1px solid var(--primary);
     box-sizing: border-box;
     border-radius: 6px;
+  }
+
+
+  /* ==================dark mode header============ */
+  .dark-mode .links ul li a{
+    color: #fff;
+  }
+
+  .dark-mode .banner-heading {
+    color: #fff;
+  }
+
+  .dark-mode .banner-text-container {
+    background: transparent;
+  }
+
+  .dark-mode .banner-buttons .default-btn {
+    background: transparent;
+  }
+
+  .dark-mode .banner-para .para {
+    color: var(--grey);
+    margin-bottom: 2rem;
+
+  }
+
+  .dark-mode .banner-para {
+    margin-top: 0.5rem;
+  }
+
+  .dark-mode .banner-bottom-img {
+    display: none;
+  }
+
+  .dark-mode .logo h1 {
+    color: #fff;
+  }
+
+  .dark-mode .para-light-mode {
+    display: none;
   }

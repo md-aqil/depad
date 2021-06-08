@@ -1,0 +1,214 @@
+.spacer-bottom {
+    padding-bottom: 5rem;
+}
+
+.almuni-pools .name h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: -10px;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+.eth {
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 136.02%;
+/* identical to box height, or 19px */
+
+
+color: #4C6FFF;
+}
+
+.almuni-pools .name p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 162.02%;
+    text-transform: uppercase;
+    font-feature-settings: 'salt' on;
+    color: #4F4F4F;
+    margin-bottom: 4px;
+}
+
+.participate p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.65285px;
+    line-height: 15px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+
+
+
+
+.almuni-progress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.almuni-pools .content-div-one {
+    padding: 1rem;
+}
+
+/* ======================footer section desighn================ */
+
+.get-alert {
+    background-image: url('../images/footer-side.png');
+    padding-top: 14rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 722px;
+    position: relative;
+
+}
+
+.email-section {
+    background-image: url('../images/world.png');
+    width: 80%;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 49%;
+    position: absolute;
+}
+
+.email-section h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 50.0935px;
+line-height: 65px;
+/* identical to box height, or 130% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.subscribe input {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px rgb(0 0 0 / 10%);
+    border-radius: 25px;
+    width: 52%;
+    outline: none;
+    border: none;
+    padding: 14px 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #3B3B3B;
+
+}
+
+.subscribe button {
+    background: #4C6FFF;
+    border-radius: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 23px;
+    margin-left: -121px;
+}
+
+.subscribe {
+    margin-top: 39px;
+    margin-bottom: 13px;
+
+}
+
+.footer {
+    background: #21333B;
+    margin-top: -16rem;
+    padding-top: 11rem;
+    padding-bottom: 1rem;
+}
+
+.ant-divider {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.copyrite {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.footer > .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-left: -38px;
+    margin-top: 4px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+
+.footer-heading {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+margin-bottom: 17px;
+
+text-transform: uppercase;
+
+color: #4C6FFF;
+}
+
+.sociel-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-left: -31px;
+}
+
+/* dark-mode of almuni pools */
+
+.dark-mode .almuni-pools .name p {
+    color: var(--grey);
+}
+
+.dark-mode .almuni-pools .name h3 {
+    color: #fff;
+}

@@ -71,6 +71,7 @@ color: #333333;
     font-size: 14px;
     line-height: 12px;
     color: var(--primary);
+    width: inherit;
     border: none;
     text-transform: capitalize;
     border: 1px solid var(--primary);
@@ -90,11 +91,16 @@ color: #333333;
 
 .banner-bottom-img {
     position: absolute;
-    margin-left: 38.7rem;
-    margin-top: -11rem;
-    width: 54%;
+    margin-left: 45.7rem;
+    margin-top: -13rem;
+    width: 53%;
 }
+
+
 
 .banner {
     position: relative;
+}
+.para-light-mode {
+    display: block;
 }
