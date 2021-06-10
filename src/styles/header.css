@@ -6,6 +6,10 @@
 padding: 26px 0px 0px 0px;
 }
 
+.switch {
+  width: 6%;
+  margin-top: -14px;
+}
 
 
 .switch-box {
@@ -24,7 +28,7 @@ padding: 26px 0px 0px 0px;
     border-radius: 0px 100px 100px 0px;
 }
 .night {
-    padding: 0px 6px 4px 7px;
+  padding: 0.5px 6px 4px 7px;
     border-radius: 100px 0px 0px 100px;
 }
 
@@ -45,6 +49,7 @@ padding: 26px 0px 0px 0px;
 
 .logo {
     margin-top: -15px;
+    width:28%;
 }
 
 .logo h1 {
@@ -60,8 +65,10 @@ padding: 26px 0px 0px 0px;
 
 
 .links ul li:first-child {
-    margin-left: -39px;
+    margin-left: 0px;
 }
+
+
 
   .links ul li {
     display: inline-block;
@@ -78,9 +85,10 @@ padding: 26px 0px 0px 0px;
 
 
   .nav-buttons {
-    margin-left: 40px;
+      margin-left: 25px;
     margin-right: -20px;
-    margin-top: -4px;
+    margin-top: -11px;
+
   }
 
 
@@ -89,26 +97,33 @@ padding: 26px 0px 0px 0px;
     align-items: center;
     padding: 12px 25px;
     border: none;
-    
+  border: 1px solid #E1E8FF;;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 12px;
+    outline: none;
 
     color: var(--primary);
     background: #E1E8FF;
     border-radius: 6px;
   }
 
+button {
+  outline: none;
+}
+
   .nav-buttons .default-btn {
     align-items: center;
     padding: 12px 25px;
     font-style: normal;
+    outline: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 12px;
     background: transparent;
     color: var(--primary);
+    margin-left: 22px;
     border: 1px solid var(--primary);
     box-sizing: border-box;
     border-radius: 6px;
@@ -149,6 +164,8 @@ padding: 26px 0px 0px 0px;
   .dark-mode .logo h1 {
     color: #fff;
   }
+
+
 
   .dark-mode .para-light-mode {
     display: none;

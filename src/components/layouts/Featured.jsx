@@ -48,7 +48,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={50} />
 
@@ -111,7 +111,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={80} />
 
@@ -174,7 +174,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={90} />
 
@@ -242,7 +242,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={50} />
 
@@ -305,7 +305,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={50} />
 
@@ -368,7 +368,7 @@ function Featured() {
                             <h1>37ETH</h1>
                         </div>
 
-                        <div className="progress">
+                        <div className="progress-home">
                             <p className="progress-para">progress</p>
                             <Progress percent={50} />
 

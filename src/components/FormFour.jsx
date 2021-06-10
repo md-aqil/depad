@@ -16,53 +16,53 @@ function FormTwo() {
                     <div className="apply-presale-form">
                         <form action="">
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col  xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="sale-title">sale title</label>
                                 <input className="presale-input" id="sale-title" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col  xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="short-desc">short description</label>
                                 <input className="presale-input" id="short-desc" type="text" />
                             </Col>
                         </Row>
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12}  span="12">
                                 <label className="presale-lable" htmlFor="website">website</label>
                                 <input className="presale-input" id="website" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="telegrame">telegram (username only)</label>
                                 <input className="presale-input" id="telegrame" type="text" />
                             </Col>
                         </Row>
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="github">github (username only)</label>
                                 <input className="presale-input" id="github" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="twitter">twitter (username only)</label>
                                 <input className="presale-input" id="twitter" type="text" />
                             </Col>
                         </Row>
 
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="logo">logo</label>
                                 <input className="presale-input" id="logo" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="kyc">kyc information</label>
                                 <input className="presale-input" id="kyc" type="text" />
                             </Col>
                         </Row>
 
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="whitepaper">whitepaper</label>
                                 <input className="presale-input" id="whitepaper" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="category">category </label>
                                 <input className="presale-input" id="category" type="text" />
                             </Col>

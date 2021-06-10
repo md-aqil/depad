@@ -17,12 +17,13 @@ function Upcomming() {
             <div className="upper-space"></div>
         
             <div className="upcomming-content">
-                <div className="container">
+                <div className="left-right-arro container">
                     <Row>
                         <Col span={20}>
                             <h1  className="second-heading">upcomming pools</h1>
                         </Col>
                         <Col span={4}>
+                            <div className="arros">
                             <Row>
                                 <Col span={6}>
                                     <div className="left-arro">
@@ -35,6 +36,10 @@ function Upcomming() {
                                     </div>
                                 </Col>
                             </Row>
+                        
+                            </div>
+                      
+                        
                         </Col>
                     </Row>
                 

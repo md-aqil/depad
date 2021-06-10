@@ -10,81 +10,107 @@ import { Link } from 'react-router-dom'
 
 
 
+
+
 function Header(props) {
   return (
-    <div>
-      
-        <div className="nav">
+  
 
-<div className="container">
-     <Row>
+
+  <nav className="nav navigation bg-color navbar-dark navbar overlay navbar-expand-md">
+      <div className="container">
+
          
-        <Col span={6}>
-            <div className="logo">
-              <Link to="/">
-                 <h1>dePad</h1>
-              </Link>
-                
-             </div>
-        </Col>
-        
-        <Col span={2}>
-            <div className="switch">
-                 <div className="switch-box">
-                     <div className={`night ${props.mode =='light'?'':'active'}`} onClick={() => props.setMode(props.mode === "light" ? "dark" : "light")}>
-                        {props.mode == 'light'? <img src={Moon} alt="" /> :<img src={whiteMoon} alt="" />}
-                         
-                     </div>
-                     <div className={`day ${props.mode =='light'?'active':''}`}  onClick={() => props.setMode(props.mode === "light" ? "dark" : "light")}>
-                      {props.mode == 'light'? <img src={Sun} alt="" /> :<img src={sunBlue} alt="" />}
-                     </div>
-                 </div>
-             </div>
-        </Col>
 
-        <Col span={8}>
-            <div className="links">
-                 <ul>
-                   <li>
-                     <Link to="/all-pools">all pools</Link>
-                   </li>
-                   <li>
-                    <Link to="/presale-voting">
-                      voting
-                    </Link>
-                   </li>
-               
-                <li>
-                <Link to="/stats">
-                    Stats
-                </Link>
-                </li>
-                
-                    
-                     <li>staking</li>
-                 </ul>
-             </div>
-        </Col>
 
-        <Col span={8}>
-            
+  
+
+             <div className="logo">
+               <Link to="/">
+                  <h1>dePad</h1>
+               </Link>
+                 
+              </div>
+
+         
+
+             <div className="switch">
+                  <div className="switch-box">
+                      <div className={`night ${props.mode =='light'?'':'active'}`} onClick={() => props.setMode(props.mode === "light" ? "dark" : "light")}>
+                         {props.mode == 'light'? <img src={Moon} alt="" /> :<img src={whiteMoon} alt="" />}
+                          
+                      </div>
+                      <div className={`day ${props.mode =='light'?'active':''}`}  onClick={() => props.setMode(props.mode === "light" ? "dark" : "light")}>
+                       {props.mode == 'light'? <img src={Sun} alt="" /> :<img src={sunBlue} alt="" />}
+                      </div>
+                  </div>
+              </div>
+
+ 
+
+       
+
+         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+
+       <div className="collapse text-center nav-item navbar-collapse" id="collapsenavbar">
+
+
+             <div className="links">
+                  <ul>
+                    <li>
+                      <Link to="/all-pools">all pools</Link>
+                    </li>
+                    <li>
+                     <Link to="/presale-voting">
+                       voting
+                     </Link>
+                    </li>
+                
+                 <li>
+                 <Link to="/stats">
+                     Stats
+                 </Link>
+                 </li>
+                 
+                  
+                     <li>
+                       <Link to="#">
+                       staking
+                       </Link>
+                     </li>
+                   
+                     
+                  </ul>
+              </div>
+
+
+             
              <div className="nav-buttons">
-               <Row>
-                  <Col span={12}> <button className="light-btn">Connect Wallet</button></Col>
-                  <Col span={12}><button className="default-btn">Creat pool</button></Col>
+           
+                <button className="light-btn">Connect Wallet</button>
+             <button className="default-btn">Creat pool</button>
                  
-               </Row>
+          
              </div>
                  
-           
-        </Col>
+     
+ 
+         </div>
 
-     </Row>
-</div>
 
-</div>
+ 
+      </div>
+  </nav>
+   
 
-    </div>
+
+
+
+
+
+ 
    
   );
 }

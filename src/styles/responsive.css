@@ -1,0 +1,249 @@
+@media only screen and (max-width:700px)  {
+
+    .container {
+        width: 90%;
+    }
+
+    .nav  {
+        background-color: var(--primary);
+        padding: 20px 0px 8px 0px;
+    }
+
+    .filled li {
+        list-style: none;
+    }
+
+    .logo {
+        width: 8%;
+    }
+
+    .logo h1 {
+        color: #fff;
+    }
+
+    .switch {
+      
+    margin-top: -11px;
+
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-top: -10px;
+    }
+
+    .banner-text-container {
+        width: inherit;
+        padding: 10px 0px;
+    }
+
+    .upcomming-bg {
+        margin-top: -5rem;
+    }
+
+    .upcomming-content-div {
+        display: block;
+    }
+
+    
+
+.upcomming-content {
+    padding: 0rem;
+}
+
+.upcomming-content-div > div {
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+.left-right-arro img{
+    width: 28px;
+}
+
+
+
+.arros {
+    margin-left: -88px;
+}
+
+.right-arro {
+    margin-left: 74px;
+}
+
+.feature-content-div > div {
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+.feature-content-div {
+    margin-left: 0;
+}
+
+.subscribe input {
+    width: 100%;
+}
+
+
+.email-section h1 {
+    font-size: 40.0935px;
+}
+
+.subscribe button {
+    padding: 13px 13px;
+    margin-left: -101px;
+}
+.subscribe {
+    padding: 1px 10px;
+}
+
+.copyrite {
+    padding: 0rem 1rem;
+}
+
+.footer > .footer-content {
+    display: block;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+}
+
+.links ul li {
+    display: block;
+}
+
+.links ul li:first-child {
+    margin-left: 0px;
+}
+
+.links ul li {
+    margin-left: 0px;
+    margin-top: 1rem;
+}
+
+
+
+.links ul {
+    margin-left: -40px;
+}
+
+.links ul li a {
+    color: #fff;
+}
+
+.nav-buttons button {
+    display: block;
+    width: 97%;
+    margin: auto;
+}
+
+.nav-buttons .default-btn {
+    margin-left:0;
+    margin-left: 4px;
+    margin-top: 1rem;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.ui.table:not(.unstackable) tr {
+    padding-top: 0em;
+}
+
+
+.table-name >div {
+    width: 100%;
+    margin-top: 9px
+}
+
+.voting {
+    margin-bottom: 0;
+}
+
+
+.badge {
+    margin-left: 65px;
+}
+
+.pagination {
+    margin: auto;
+    width: 53%;
+}
+
+.search {
+    width: inherit;
+    padding: 14px 45px;
+}
+
+.shape {
+    padding: 9px;
+    margin-left: -20px;
+}
+
+.nav-buttons {
+    margin-left: 01px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.stats .upcomming-info p {
+    
+     margin-bottom: 0px;
+}
+
+.upcomming-info {
+    display: block;
+}
+
+.stats-logo-div {
+    width: 92%;
+    margin-bottom: 2rem;
+}
+
+.price-reward {
+    margin-bottom: -5rem;
+}
+
+.development-stats {
+    text-align: center;
+}
+
+.name-stats p {
+    width: 100%;
+}
+
+.apply-presale-form .ant-row {
+    row-gap:0px !important;
+}
+
+.voting .stats-div{ 
+    padding: 1rem;
+}
+   
+.presale-form-buttons > div:last-child {
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+
+.presale-form-buttons >div{
+    display: block;
+}
+
+.wallet-balance {
+    padding: 1rem 1rem 2rem;
+}
+
+.balance-form {
+    display: block;
+    padding-top: 2rem;
+}
+.balance-form > div {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+}

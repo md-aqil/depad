@@ -94,6 +94,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
+margin-top: -9px !important;
+margin-left: 9px;
 
 text-transform: uppercase;
 font-feature-settings: 'salt' on;
@@ -192,7 +194,7 @@ color: #219653;
   text-transform: uppercase;
   font-feature-settings: 'salt' on;
   color: #4F4F4F;
-  margin-top: 1.3rem;
+  margin-top: 1.3rem !important;
 }
 
 .total-raise h1 {
@@ -200,10 +202,16 @@ color: #219653;
 font-style: normal;
 font-weight: 600;
 font-size: 27px;
+margin-top: 0;
 line-height: 136.02%;
 
 
 color: var(--primary);
+}
+
+.progress-home {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .upcomming-info {
@@ -228,13 +236,13 @@ color: var(--primary);
 }
 
 .upcomming-info h1 {
-  font-family: Inter;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 136.02%;
   text-transform: uppercase;
-  
+  margin-top: 0;
   color: var(--primary);
   
 } 
@@ -336,6 +344,7 @@ border-radius: 20px;
 
 .dark-mode .total-raise p {
   color:var(--grey);
+  margin-top: 2rem;
 }
 
 .dark-mode .name h3 {
@@ -367,6 +376,7 @@ box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.2), 0px 4px 20px -2px rgba(50, 50, 71
 
 .dark-mode .name p {
   color: var(--grey);
+ 
 }
 
 .dark-mode .progress-para {
@@ -383,4 +393,13 @@ box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.2), 0px 4px 20px -2px rgba(50, 50, 71
 
 .dark-mode .para-dark-mode {
   display: block;
+}
+
+.progress {
+  display: -ms-flexbox;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #fff;
+  border-radius: .25rem;
 }

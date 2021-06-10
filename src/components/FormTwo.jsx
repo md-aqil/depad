@@ -16,21 +16,21 @@ function FormTwo() {
                     <div className="apply-presale-form">
                         <form action="">
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="listing-rate">Listing Rate (BNB Per Token)</label>
                                 <input className="presale-input" id="listing-rate" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="allocated">percentage allocated to lp</label>
                                 <input className="presale-input" id="allocated" type="text" />
                             </Col>
                         </Row>
                         <Row gutter={[30, 30]}>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="listing-time">liquidity listing time</label>
                                 <input className="presale-input" id="listing-time" type="text" />
                             </Col>
-                            <Col span="12">
+                            <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="hardcap">liquidity lock duration (days)</label>
                                 <input className="presale-input" id="hardcap" type="text" />
                             </Col>

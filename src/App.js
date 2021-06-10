@@ -10,7 +10,8 @@ import PresaleVoting from "./components/PresaleVoting";
 import Stats from "./components/Stats";
 import ApplyForm from './components/ApplyForm';
 import Detail from "./components/Detail";
-import Modal from './components/modal'
+import Modal from './components/modal';
+
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         {/* routing */}
         <Switch>
           <Route path="/" exact component={Home}></Route>
+          <Route path="/de-pad"  component={Home}></Route>
           <Route path="/all-pools" component={AllPools}></Route>
           <Route path="/stats" component={Stats}></Route>
           <Route path="/presale-voting" component={PresaleVoting}></Route>

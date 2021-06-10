@@ -48,7 +48,7 @@ function Featured() {
 
                       
 
-                        <div className="progress">
+                        <div className="">
                             <div className="per-token">
                                 <div>
                                     <p className="para">1001.00 per token</p>
