@@ -27,7 +27,7 @@ function App() {
         {/* routing */}
         <Switch>
           <Route path="/" exact component={Home}></Route>
-          <Route path="/de-pad"  component={Home}></Route>
+          <Route path="/depad"  component={Home}></Route>
           <Route path="/all-pools" component={AllPools}></Route>
           <Route path="/stats" component={Stats}></Route>
           <Route path="/presale-voting" component={PresaleVoting}></Route>

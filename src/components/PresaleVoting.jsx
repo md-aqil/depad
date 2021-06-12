@@ -14,7 +14,7 @@ import  Almuni from "./layouts/Almuni"
 function AllPools() {
 
       return (
-        <div className="voting all-pools spacer-bottom">
+        <div className="voting all-pools ">
           
             <div className="container">
             <div className="little-space"></div>

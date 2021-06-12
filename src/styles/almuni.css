@@ -68,13 +68,30 @@ color: #4C6FFF;
 
 .get-alert {
     background-image: url('../images/footer-side.png');
-    padding-top: 14rem;
+   
+    padding-top: 7rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    height: 722px;
+    height: 541px;
     position: relative;
+    width: 100%;
 
+
+}
+
+
+
+.minus-margin-bottom {
+    margin-bottom: -6rem;
+}
+
+.almuni-pools .slick-prev {
+    display: none !important;
+}
+
+.almuni-pools .slick-next {
+    display: none !important;
 }
 
 .email-section {
@@ -85,7 +102,7 @@ color: #4C6FFF;
     padding-bottom: 5rem;
     background-size: 100% 100%;
     text-align: center;
-    height: 49%;
+    height: 57%;
     position: absolute;
 }
 
@@ -167,6 +184,7 @@ color: #FFFFFF;
 
 .footer > .footer-content {
     display: flex;
+    position:relative;
     justify-content: space-between;
 }
 
@@ -182,6 +200,19 @@ color: #FFFFFF;
     margin-top: 4px;
     letter-spacing: 0.4px;
     text-transform: capitalize;
+}
+
+.footer-content li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer-content li a:hover {
+    color: var(--primary);
 }
 
 .footer-heading {
@@ -201,7 +232,7 @@ color: #4C6FFF;
     display: flex;
     justify-content: space-between;
     margin-top: 19px;
-    margin-left: -31px;
+    margin-left: -35px;
 }
 
 /* dark-mode of almuni pools */

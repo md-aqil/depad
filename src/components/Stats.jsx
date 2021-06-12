@@ -30,14 +30,14 @@ function Featured() {
   return (
     <div>
             
-        <div className="stats padding-top">
+        <div className="stats minus-margin-bottom padding-top">
         <div className="background-line-image">
                    <img src={LineBg} alt="" />
                 </div>
             <div className="container">
                       
                 <div className="">
-                    <div className="stats-div primary-div">
+                    <div className=" primary-div">
                     <h2 className="third-heading">KYC information</h2>
                       
 

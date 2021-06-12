@@ -9,6 +9,8 @@ import fb from '../../images/fb.png';
 import { Divider } from 'antd';
 
 import "../../styles/almuni.css"
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -54,14 +56,36 @@ function Almuni() {
                     <div className="info-two">
                         <h4 className="footer-heading">info area2</h4>
                         <ul>
-                            <li>wildlife</li>
-                            <li>heritage</li>
-                            <li>pilgrimage</li>
-                            <li>hill station</li>
+                     
+
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/all-pools">All pools</Link>
+                            </li>
+                            <li>
+                                <Link to="/stats">Stats</Link>
+                            </li>
+                            <li>
+                                <Link to="/presale-voting">Presale voting</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/form-presale">form</Link>
+                            </li>
+                            <li>
+                                <Link to="/detail">Detail</Link>
+                            </li>
+                            <li>
+                                <Link to="/model">model</Link>
+                            </li>
+                          
                         </ul>
                     </div>
 
-                    <div className="info-two">
+                    <div className="info-three ">
                         <h4 className="footer-heading">other service       </h4>
                         <ul>
                             <li>destination weddings MICE</li>
@@ -79,7 +103,7 @@ function Almuni() {
                </div>
 
                <div className="copyrite">
-                    &copy; 2021 multi-chail privated limited | all rights reserved
+                    &copy; 2021 de-pad privated limited | all rights reserved
                </div>
           </div>
     </div>

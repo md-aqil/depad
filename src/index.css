@@ -105,8 +105,8 @@ code {
 }
 
   .feature-content-div > div {
-  margin-left: 14px !important;
-  margin-top: 14px;
+  margin-left: 24px !important;
+  margin-top: 26px;
 }
 
 .all-pools .feature-content-div > div {
@@ -125,6 +125,7 @@ code {
 .percent {
   color: #F2994A;
   font-size: 18px;
+  margin:0;
 }
 
 .all-pools .name {
@@ -316,7 +317,13 @@ code {
    color: #4F4F4F;
  }
 
+
+
  /* stats divs */
+button {
+  outline: none !important;
+}
+
 
  .stats-div {
   background: #FFFFFF;
@@ -379,6 +386,45 @@ code {
   text-transform: capitalize;
  }
 
+.slick-prev {
+  display: block;
+  position: relative;
+  /* background: var(--primary); */
+  width: 8%;
+  background: #fff;
+  left: 64.5rem !important;
+  height: 57px;
+  top: 0% !important;
+}
+
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  margin-left: 12px !important;
+}
+ 
+
+.slick-next {
+  right: 24px !important;
+  top: 0% !important;
+  display: block;
+  position: relative;
+  /* background: var(--primary); */
+  width: 8%;
+  background: #fff;
+  height: 57px;
+}
+
+ .slick-prev:before {
+   content: url('./images/arro-left.png') !important;
+   width: 8%;
+
+ }
+
+ .slick-next:before {
+  content: url('./images/arro-right.png') !important;
+  width: 8%;
+ }
+
  .per-token {
   display: flex;
   justify-content: space-between;
@@ -433,8 +479,12 @@ code {
   font-feature-settings: 'salt' on;
   color: #333333;
   margin-top: 2rem;
-  margin-bottom: -16px;
+  margin-bottom: 7px;
 
+}
+
+.info-three {
+  width: 16%
 }
 
 .stats .upcomming-info h1 {

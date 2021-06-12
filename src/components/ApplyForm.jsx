@@ -12,7 +12,7 @@ import FormFour from "./FormFour"
 function AllPools() {
 
       return (
-       <div className="container padding-top">
+       <div className="container form padding-top">
             <div className="little-space"></div>
             <h1 className="all-pools-heading">
                 all pools - all

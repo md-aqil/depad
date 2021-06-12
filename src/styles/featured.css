@@ -83,7 +83,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 2rem;
-    width: 32%;
+    width: 31%;
     margin-left: 1.3rem;
     display: inline-block;
 }
@@ -101,6 +101,21 @@ text-transform: uppercase;
 font-feature-settings: 'salt' on;
 
 color: #4F4F4F;
+}
+
+
+.almuni-pools .content-div-one {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: none;
+}
+
+.almuni-pools .content-div-one:hover {
+  border: 1px solid var(--primary);
+  box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.2), 0px 4px 20px -2px rgba(50, 50, 71, 0.08);
 }
 
 .feature-content-div > div:hover {

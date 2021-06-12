@@ -58,7 +58,7 @@ function AllPools() {
 
         
           
-        <div className="all-pools spacer-bottom">
+        <div className="all-pools ">
      
     
    
@@ -79,7 +79,7 @@ function AllPools() {
                                 </form>
                             </Col>
                             <Col span={1}>
-                                <Dropdown overlay={menu} trigger={['click']} placement="bottomRight">
+                                <Dropdown overlay={menu} trigger={['click']} placement="bottomLeft">
                                     <button className="shape" ><img src={Shape} alt="" /></button>
                                 </Dropdown>
                             </Col>

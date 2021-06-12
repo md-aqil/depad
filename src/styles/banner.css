@@ -70,6 +70,7 @@ color: #333333;
     font-weight: 600;
     font-size: 14px;
     line-height: 12px;
+    position: relative;
     color: var(--primary);
     width: inherit;
     border: none;
@@ -90,10 +91,15 @@ color: #333333;
 }
 
 .banner-bottom-img {
+   position: relative
+}
+
+.banner-bottom-img::before {
+    content: url("../images/banner-bottom-img.png");
     position: absolute;
-    margin-left: 45.7rem;
-    margin-top: -13rem;
-    width: 53%;
+    margin-left: 51rem;
+    margin-top: -5rem;
+    position: absolute;
 }
 
 

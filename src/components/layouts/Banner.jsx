@@ -2,7 +2,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import '../../styles/banner.css';
-import  bannerBottomImg  from '../../images/banner-bottom-img.png';
+
 
 
 
@@ -14,8 +14,8 @@ function Banner(props) {
             <h1 className="banner-heading">Decentralize <span className="primary"> Multi-Chain </span> Launchpad</h1>
         </div>
 
-       <div className="">
-           <div className="banner-para">
+       <div className=" banner-bottom-img">
+           <div className="banner-para ">
 
               
                 <p className="para para-light-mode">
@@ -45,7 +45,10 @@ function Banner(props) {
             
         </div>
 
-        <img className="banner-bottom-img" src={bannerBottomImg} alt="" />
+        <div className="">
+
+        </div>
+
     </div>
     
   );

@@ -21,6 +21,20 @@ padding: 26px 0px 0px 0px;
     border-radius: 100px;
 }
 
+.switch-box div {
+  cursor: pointer;
+}
+
+
+.banner-buttons .default-btn {
+  cursor: pointer;
+}
+
+
+.default-btn {
+  cursor: pointer;
+}
+
 .day {
     height: 21.28px;
     padding: 0px 8px 1px 6px;
