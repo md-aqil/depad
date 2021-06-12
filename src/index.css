@@ -111,7 +111,8 @@ code {
 
 .all-pools .feature-content-div > div {
   padding: 2rem 1rem 1rem 1rem;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
+  box-shadow: none;
 }
 
 .danger {
@@ -181,7 +182,7 @@ code {
 
 
 .pagination {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 .pagination > div {
@@ -331,7 +332,7 @@ button {
   box-sizing: border-box;
   border-radius: 14px;
   box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
-  filter: drop-shadow(0px 0px 1px #4C6FFF);
+  filter: drop-shadow(0px 0px 1px #b0b0b0);
   padding: 2rem 2rem;
  }
 
@@ -399,10 +400,26 @@ button {
 
 
 .slick-slider .slick-track, .slick-slider .slick-list {
-  margin-left: 12px !important;
+  margin-left: -6px !important;
+
+}
+
+.almuni-pools .slick-track{
+  margin-left: 8px !important;
+}
+
+.upcomming-content .slick-track {
+  height: 146px  !important;
+}
+
+.dark-mode .upcomming-content .slick-track {
+    margin-left: -14px !important;
 }
  
-
+.almuni-pools .second-heading {
+  margin-bottom: 1.5rem;
+  margin-left: 10px;
+}
 .slick-next {
   right: 24px !important;
   top: 0% !important;
@@ -698,7 +715,7 @@ position: relative;
     padding: 2rem;
     width: 31.5%;
     box-shadow: 0px 3px 8px -1px rgb(50 50 71 / 11%);
-   filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
+   /* filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24)); */
     margin-left: 1.3rem;
     display: inline-block;
 }
@@ -763,6 +780,8 @@ color: #4C6FFF;
 .dark-mode .stats-div{
   background: #30444E;
   border: none;
+  filter:none;
+  position: relative;
 }
 
 .dark-mode .stats-logo-div {
@@ -851,6 +870,15 @@ color: #4C6FFF;
   color: #fff;
 }
 
+.dark-mode .almuni-pools .content-div-one {
+  background: #30444E;
+  border: none;
+}
+
+.dark-mode .content-div-one {
+  background: #30444E;
+  border: 1px solid #30444E;
+}
 
 /* modal */
 

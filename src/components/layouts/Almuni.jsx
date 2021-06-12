@@ -55,7 +55,9 @@ function Almuni() {
 
 function Pool({name, logo, day, price}) {
 
+   
     return (
+        <div style={{padding: "0.5rem"}}> 
         <div className="content-div-one">
 
         <div className="almuni-progress">
@@ -91,6 +93,8 @@ function Pool({name, logo, day, price}) {
             </div>
 
         </div>
+
+    </div>
 
     </div>
 

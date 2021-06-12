@@ -16,7 +16,7 @@ function Upcomming() {
           infinite: true,
           speed: 500,
           slidesToShow: 3,
-          slidesToScroll: 1
+          slidesToScroll: 1,
         };
 
   return (
@@ -30,12 +30,12 @@ function Upcomming() {
                  
                     <div>
         <h2  className="second-heading">upcomming pools</h2>
-        <Slider {...settings}>
+        <Slider {...settings} variableWidth>
            
             <Pool name="Hello Pool 1" day={1} logo={logo} price={100} />
             <Pool name="Hello Pool 2" day={2} logo={logo} price={100} />
             <Pool name="Hello Pool 3" day={3} logo={logo} price={100} />
-            <Pool name="Hello Pool 4" logo={logo} price={100} />
+            <Pool name="Hello Pool 4" day={3} logo={logo} price={100} />
                   
         </Slider>
       </div>
@@ -52,6 +52,7 @@ function Upcomming() {
 
 function Pool({name, logo, day, price}) {
     return (
+        <div style={{padding: "1rem"}}>
         <div className="content-div-one">
                         <div className="upcomming-div-head">
 
@@ -93,6 +94,7 @@ function Pool({name, logo, day, price}) {
 
                         </div>
 
+                    </div>
                     </div>
                 
     )

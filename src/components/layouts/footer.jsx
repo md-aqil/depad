@@ -54,7 +54,7 @@ function Almuni() {
                         </ul>
                     </div>
                     <div className="info-two">
-                        <h4 className="footer-heading">info area2</h4>
+                        <h4 className="footer-heading">pages</h4>
                         <ul>
                      
 

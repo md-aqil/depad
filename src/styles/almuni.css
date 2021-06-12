@@ -96,13 +96,14 @@ color: #4C6FFF;
 
 .email-section {
     background-image: url('../images/world.png');
-    width: 80%;
+    width: 77.5%;
     background-repeat: no-repeat;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-size: 100% 100%;
     text-align: center;
     height: 57%;
+    margin-left: 9px;
     position: absolute;
 }
 

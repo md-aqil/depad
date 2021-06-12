@@ -138,6 +138,12 @@ function Featured() {
                             </div>
 
                             <div className="min">
+                                <p className="small-para">Your Tokens</p>
+                                <h1>0.000000</h1>
+                                <button className="btn-btn-default">clain tokens</button>
+                            </div>
+
+                            <div className="min">
                                 <p className="small-para">Your BNB Investment</p>
                                 <h1>0.000BNB</h1>
                                 <button className="btn-btn-default">get refund</button>
@@ -256,7 +262,7 @@ function Featured() {
 
                 {/* disclaimer */}
                 <div className="stats-div investment">
-                        <h2 className="third-heading">KYC information</h2>
+                        <h2 className="third-heading">description</h2>
                       
 
                            

@@ -31,6 +31,9 @@ padding: 26px 0px 0px 0px;
 }
 
 
+
+
+
 .default-btn {
   cursor: pointer;
 }
@@ -171,8 +174,12 @@ button {
     margin-top: 0.5rem;
   }
 
-  .dark-mode .banner-bottom-img {
+  /* .dark-mode .banner-bottom-img {
     display: none;
+  } */
+
+  .dark-mode .banner-bottom-img::before {
+    content: "";
   }
 
   .dark-mode .logo h1 {
