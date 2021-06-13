@@ -12,12 +12,32 @@ import Slider from "react-slick";
 
 
 function Upcomming() {
-        const settings = {
-          infinite: true,
-          speed: 500,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        };
+    var settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+         
+            
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
 
   return (
     <div className="upcomming-bg">
@@ -30,7 +50,7 @@ function Upcomming() {
                  
                     <div>
         <h2  className="second-heading">upcomming pools</h2>
-        <Slider {...settings} variableWidth>
+        <Slider {...settings} variableWidth >
            
             <Pool name="Hello Pool 1" day={1} logo={logo} price={100} />
             <Pool name="Hello Pool 2" day={2} logo={logo} price={100} />

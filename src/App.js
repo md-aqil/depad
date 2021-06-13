@@ -39,7 +39,6 @@ function App() {
        {/* end routing */}
 
         
-       
    
        
         <Footer></Footer>

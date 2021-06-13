@@ -121,7 +121,7 @@ function Featured() {
                     </div>
                   
 
-                    <div className="stats-logo-div ">
+                    <div className="stats-logo-div big-div ">
                
                         <div  className="text-center">
                         <img className="dark-image-icon" src={feeOne} alt="" />
@@ -208,12 +208,12 @@ function Featured() {
 
               </div>
             
-                    </div>
+                
 
-                <div className="little-space"></div>
+            
                 
                 
-                    <div className="stats-content-div">
+               
                     <div className="stats-logo-div text-center">
                
                      <div>
@@ -321,4 +321,7 @@ function Featured() {
     
   );
 }
+
+
+
 export default Featured;

@@ -87,7 +87,7 @@
 
 
 .email-section h1 {
-    font-size: 40.0935px;
+    font-size: 20px;
 }
 
 .subscribe button {
@@ -245,5 +245,176 @@
     padding-bottom: 2rem;
 }
 
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+   
+    .nav  {
+        background-color: var(--primary);
+        padding: 20px 0px 8px 0px;
+    }
+
+    .filled li {
+        list-style: none;
+    }
+
+    .logo {
+        width: 8%;
+    }
+
+    .logo h1 {
+        color: #fff;
+    }
+
+    .switch {
+      
+    margin-top: -11px;
+
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-top: -10px;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .links ul li {
+        display: block;
+    }
+    
+    .links ul li:first-child {
+        margin-left: 0px;
+    }
+    
+    .links ul li {
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+    
+    
+    
+    .links ul {
+        margin-left: -40px;
+    }
+    
+    .links ul li a {
+        color: #fff;
+    }
+    
+    .nav-buttons button {
+        display: block;
+        width: 97%;
+        margin: auto;
+    }
+    
+    .nav-buttons .default-btn {
+        margin-left:0;
+        margin-left: 4px;
+        margin-top: 1rem;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    .banner-heading {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 43.0935px;
+    }
+
+    .banner-para {
+        margin-top: 2rem;
+    }
+
+
+    .banner-bottom-img::before {
+        margin-left: 17rem;
+        margin-top: -4rem;
+    }
+
+    .slick-slider .slick-track, .slick-slider .slick-list {
+        margin-left: -6px !important;
+    }
+
+    .in-days >div {
+        padding: 1px 5px 1px 4px;
+        margin-left: 0px;
+    }
+
+    .upcomming-content .content-div-one {
+        padding: 2rem 1rem;
+    }
+
+    .upcomming-info h1 {
+        font-size: 22px; }
+.name h3 {
+    font-size: 16px;
+}
+
+/* feature div */
+
+.feature-content-div > div {
+    background: #FFFFFF;
+    width: 45%;
+
+}
+
+ .feature-content-div {
+    display: inline-block;
+}
+
+
+.feature-content-div > div {
+    padding: 2rem 1rem;
+}
+
+/* .footer > .footer-content {
+    display: block;
+}
+
+.footer > .footer-content >div {
+    display: inline-block;
+    width: 50%;
+}  */
+
+.footer > .footer-content .info-three {
+    width: 20%;
+}
+
+.stats-logo-div {
+width: 46.5%;
+margin-bottom: 1.5rem;
+}
+
+.big-div .stats-para {
+    font-size:11px;
+}
+
+.big-div  .development-stats{
+    margin-top: 41px;
+}
+
+.upcomming-info {
+    display: block;
+
+}
+
+.upcomming-info > div {
+    display: inline-block;
+    width: 50%;
+}
+
+.important-primary-para {
+    line-height: 26px;
+    margin-bottom: 0;
+}
 
 }
