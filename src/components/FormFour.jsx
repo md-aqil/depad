@@ -3,7 +3,8 @@ import { Row, Col } from 'antd';
 import { Link } from 'react-router-dom'
 
 
-function FormTwo() {
+function FormTwo(props) {
+    const {handleSubmit} = props
 
       return (
         <div className="voting">
@@ -67,18 +68,11 @@ function FormTwo() {
                                 <input className="presale-input" id="category" type="text" />
                             </Col>
                         </Row>
-
-
-                      
-                   
-
-                    
                         </form>
                     </div>
                 </div>
 
                 <div className="text-center">
-                    
                     <div className="little-space"></div>
                        <br />
                    <div className="presale-form-buttons">
@@ -88,8 +82,7 @@ function FormTwo() {
                             </Link>
                        </div>
                        <div>
-                         
-                               <button className="btn-btn-default primary-button">FINISH</button>
+                            <button onClick = {handleSubmit} className="btn-btn-default primary-button">FINISH</button>
                        </div>
                      
                    </div>

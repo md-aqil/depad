@@ -11,8 +11,6 @@ function Home(props) {
 
   return (
       <div>
- 
-
         <Banner></Banner>
         <Upcomming></Upcomming>   
         <Featured></Featured>  
