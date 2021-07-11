@@ -15,13 +15,6 @@ import { EthereumProvider } from "./hooks/ethereum"
 
 function App() {
   const [mode, setMode] = useState('light');
-  // const [idoFactory,setIdoFactory] = useState(null)
-  
-  
-
-  useEffect(() => {
-    // getContractManager()
-  }, [])
   
   return (
     <EthereumProvider>
@@ -50,14 +43,6 @@ function App() {
 
 function Apps() {
   // const onConnectWallets = async()=>{
-  //   const ethereum = window.ethereum
-  //   let web3;
-  //   if(ethereum ) {
-  //     web3 = new Web3(ethereum)
-  //     await ethereum.enable()
-  //   }else if(window.web3){
-  //     web3 = new Web3(window.web3.currentProvider)
-  //   }
   //   const accounts = await web3.eth.getAccounts()
   //   //get contract manager instance from contract abi
   //   //after that call ido factory function and get ido address

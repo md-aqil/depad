@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import { Row, Col } from 'antd';
 import FormOne from "./FormOne";
 import { Route ,Switch} from 'react-router';
@@ -39,19 +39,30 @@ function AllPools(props) {
     
     const {instance:web3} = useWeb3();
     const {accounts} = useAccount()
-    console.log('acc',accounts)
+    
     const getContractAddress = async ()=>{
         const contractManager = new web3.eth.Contract(CONTRACT_ABI,CONTRACT_ADDRESS)
-        console.log(contractManager)
-        const idoAddress  = await contractManager.methods.idoFactory().call()
-        return idoAddress
+        try{
+            const idoAddress  = await contractManager.methods.idoFactory().call()
+            console.log(idoAddress)
+        }catch(e){
+            
+        }
+        // console.log(idoAddress)
       }
+      
       const getIdoFactory = async (address,account) =>{
-        const idoFactory = new web3.eth.Contract(IDO_FACTORY_ABI,address);
+        const idoFactory = await  web3.eth.Contract(IDO_FACTORY_ABI,address);
         idoFactory.methods.create({}).send({from:account})
       }
+      
+      useEffect(()=>{
+        getContractAddress()
+      })
+      
     const handleSubmit = async()=>{
-        getContractManager()
+        // getContractAddress()
+        // getContractManager()
         // const content = {}
         // this.setState({ loading: true })
         // idoFactory.methods.create(content).send({ from: account })

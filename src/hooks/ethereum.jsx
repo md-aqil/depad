@@ -16,17 +16,17 @@ export function EthereumProvider({children}) {
       if (!ethereum) {
         return;
       }
-      ethereum.on('connect', () => {
+      ethereum.on('open', () => {
         setConnected(true);
       });
       
-      ethereum.on('disconnect', () => {
+      ethereum.on('close', () => {
         setConnected(false);
       });
     }, []);
     const value = {
       instance,
-      isConnected: connected,
+      isConnected: !connected,
       connect() {
         return ethereum.request({ method: 'eth_requestAccounts' })
       }
@@ -39,14 +39,14 @@ export function useWeb3() {
 }
 
 export function useAccount() {
-    const {instance} = useWeb3();
+    const {instance:web3} = useWeb3();
     const [accounts, setAccounts] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     useEffect(() => {
         setIsLoading(true);
-        instance.getAccount().then(setAccounts).catch(e => console.error(e)).then(() => {
+        web3.eth.getAccounts().then((a)=>setAccounts(a)).catch(e => console.error(e)).then(() => {
             setIsLoading(false);
         });
     }, []);
-    return [accounts, isLoading];
+    return {accounts, isLoading};
 }

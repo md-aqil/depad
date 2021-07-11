@@ -54,8 +54,8 @@ function Header(props) {
                      </ul>
                </div>
                <div className="nav-buttons">
-                  { isConnected ? <button className="light-btn">Disconnect</button> : <button onClick={()=>connect()} className="light-btn">Connect Wallet</button> }
-                  <Link component="button" className="default-btn" to="/form-presale">Creat pool</Link>
+                   <button onClick={()=>connect()} className="light-btn">Connect Wallet</button> 
+                  <Link  className="default-btn" to="/form-presale">Creat pool</Link>
                </div>
             </div>
          </div>
