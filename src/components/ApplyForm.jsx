@@ -21,9 +21,9 @@ function AllPools(props) {
     const [hardCap,setHardCap] = useState(400)
     const [minPurchasePerWallet,setMinPurchasePerWallet] = useState(0.5)
     const [maxPurchasePerWallet,setMaxPurchasePerWallet] = useState(2)
-    const [saleStartTime,setSaleStartTime] = useState(445) // 
-    const [saleEndTime,setSaleEndTime] = useState(4543) //
-    const [headStart,setHeadStart] = useState(34984)
+    const [saleStartTime,setSaleStartTime] = useState(379) // 
+    const [saleEndTime,setSaleEndTime] = useState(454) //
+    const [headStart,setHeadStart] = useState(3498)
     
     const [allocationFactor,setAllocationFactor] = useState('') //does not match iido factory
     const [tokenDecimal,setTokenDecimal] = useState('')//do not match idofactory

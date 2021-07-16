@@ -26,7 +26,7 @@ function FormTwo(props) {
                         <Row gutter={[30, 30]}>
                             <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="listing-time">liquidity listing time</label>
-                                <input className="presale-input" id="listing-time" type="text" />
+                                <input className="presale-input" id="listing-time" type="datetime-local" />
                             </Col>
                             <Col xs={24} md={12} span="12">
                                 <label className="presale-lable" htmlFor="hardcap">liquidity lock duration (days)</label>

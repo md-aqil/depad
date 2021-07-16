@@ -48,11 +48,11 @@ function FormOne(props) {
                             <Row gutter={[30, 30]}>
                                 <Col xs={24} md={12} span="12">
                                     <label className="presale-lable" htmlFor="start-time">Sale Start Time (In Your Timeone)</label>
-                                    <input className="presale-input" id="start-time" value={saleStartTime} onChange={(e)=>setSaleStartTime(parseInt(e.target.value)||"")} type="text" />
+                                    <input type="datetime-local" className="presale-input" id="start-time" value={saleStartTime} onChange={(e)=>setSaleStartTime(parseInt(e.target.value)||"")} />
                                 </Col>
                                 <Col xs={24} md={12} span="12">
                                     <label className="presale-lable" htmlFor="end-time">Sale End Time (In Your Time Zone)</label>
-                                    <input className="presale-input" id="end-time" value={saleEndTime} onChange={(e)=>setSaleEndTime(parseInt(e.target.value)||"")} type="text" />
+                                    <input type="datetime-local" className="presale-input" id="end-time" value={saleEndTime} onChange={(e)=>setSaleEndTime(parseInt(e.target.value)||"")}  />
                                 </Col>
                             </Row>
                             <Row gutter={[30, 30]}>
