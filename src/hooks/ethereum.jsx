@@ -44,6 +44,7 @@ export function useAccount() {
     const [isLoading, setIsLoading] = useState(false);
     useEffect(() => {
         setIsLoading(true);
+        // const accounts = await ethereum.request({ method: 'eth_requestAccounts' }); use instead
         web3.eth.getAccounts().then((a)=>setAccounts(a)).catch(e => console.error(e)).then(() => {
             setIsLoading(false);
         });

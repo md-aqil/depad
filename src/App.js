@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Header from "./components/layouts/Header"
-import Almuni from './components/layouts/Almuni'
+// import Almuni from './components/layouts/Almuni'
 import Footer from "./components/layouts/footer"
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom'
 import AllPools from './components/AllPools';
@@ -41,7 +41,7 @@ function App() {
   )
 }
 
-function Apps() {
+// function Apps() {
   // const onConnectWallets = async()=>{
   //   const accounts = await web3.eth.getAccounts()
   //   //get contract manager instance from contract abi
@@ -59,5 +59,5 @@ function Apps() {
   //   //     })
   // }
   
-}
+// }
 export default App;
