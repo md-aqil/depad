@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function FormOne(props) {
     const {tokenContract,setTokenContract ,tokenPrize ,setTokenPrize ,softCap ,setSoftCap ,hardCap,
     setHardCap ,minBNB ,setMinBNB ,maxBNB,setMaxBNB,allocationFactor ,setAllocationFactor ,saleStartTime ,setSaleStartTime ,
-    saleEndTime ,setSaleEndTime ,tokenDecimal ,setTokenDecimal ,unsoldTokenAddress ,setUnsoldTokenAddress ,
+    saleEndTime ,setSaleEndTime ,voteStartTime,setVoteStartTime,voteEndTime,setVoteEndTime, tokenDecimal ,setTokenDecimal ,unsoldTokenAddress ,setUnsoldTokenAddress ,
     headStart ,setHeadStart}=props
       return (
         <div className="voting">
@@ -48,11 +48,21 @@ function FormOne(props) {
                             <Row gutter={[30, 30]}>
                                 <Col xs={24} md={12} span="12">
                                     <label className="presale-lable" htmlFor="start-time">Sale Start Time (In Your Timeone)</label>
-                                    <input type="datetime-local" className="presale-input" id="start-time" value={saleStartTime} onChange={(e)=>setSaleStartTime(parseInt(e.target.value)||"")} />
+                                    <input type="datetime-local" className="presale-input" id="start-time" value={saleStartTime} onChange={(e)=>setSaleStartTime(e.target.value)} />
                                 </Col>
                                 <Col xs={24} md={12} span="12">
                                     <label className="presale-lable" htmlFor="end-time">Sale End Time (In Your Time Zone)</label>
-                                    <input type="datetime-local" className="presale-input" id="end-time" value={saleEndTime} onChange={(e)=>setSaleEndTime(parseInt(e.target.value)||"")}  />
+                                    <input type="datetime-local" className="presale-input" id="end-time" value={saleEndTime} onChange={(e)=>setSaleEndTime(e.target.value)}  />
+                                </Col>
+                            </Row>
+                            <Row gutter={[30, 30]}>
+                                <Col xs={24} md={12} span="12">
+                                    <label className="presale-lable" htmlFor="vote-start-time">Vote Start Time (In Your Timeone)</label>
+                                    <input type="datetime-local" className="presale-input" id="vote-start-time" value={voteStartTime} onChange={(e)=>setVoteStartTime(e.target.value)} />
+                                </Col>
+                                <Col xs={24} md={12} span="12">
+                                    <label className="presale-lable" htmlFor="vote-end-time">Vote End Time (In Your Time Zone)</label>
+                                    <input type="datetime-local" className="presale-input" id="vote-end-time" value={voteEndTime} onChange={(e)=>setVoteEndTime(e.target.value)}  />
                                 </Col>
                             </Row>
                             <Row gutter={[30, 30]}>

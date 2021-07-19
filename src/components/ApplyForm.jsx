@@ -23,6 +23,9 @@ function AllPools(props) {
     const [maxPurchasePerWallet,setMaxPurchasePerWallet] = useState(2)
     const [saleStartTime,setSaleStartTime] = useState(379) // 
     const [saleEndTime,setSaleEndTime] = useState(454) //
+    const [voteStartTime,setVoteStartTime] = useState(454) //
+    const [voteEndTime,setVoteEndTime] = useState(454) //
+
     const [headStart,setHeadStart] = useState(3498)
     
     const [allocationFactor,setAllocationFactor] = useState('') //does not match iido factory
@@ -59,10 +62,8 @@ function AllPools(props) {
       
       const getIdoFactory = async (address,account) =>{
         const basicIdoDetails = [tokenPrice, softCap, hardCap, minPurchasePerWallet, maxPurchasePerWallet,saleStartTime,saleEndTime,headStart]
-        const  n = Date.now();
-        console.log(n)
         //[voting_start_time,voting_end_time]
-        const votingDetails = [addMinutes(n, 15), addHours(n, 4)];
+        const votingDetails = [addMinutes(498, 15), addHours(4985, 4)];
         const PCSListingDetails = [listingRate,lpLockDuration,allocationToLPInBP]
         const projectInformation = [saleTitle,saleDescription,website,telegram,github,twitter,logo,whitePaper,kyc]
         console.log(projectInformation)
@@ -76,6 +77,10 @@ function AllPools(props) {
         })
       }
       
+    const dateToUnix = (d)=>{
+        const dateInMili = new Date(d).valueOf()
+        return dateInMili/1000
+    }
     const handleSubmit = async ()=>{
         const idoAddress  = await getContractAddress()
         getIdoFactory(idoAddress,accounts[0]);
@@ -108,6 +113,10 @@ function AllPools(props) {
                         setSaleStartTime = {setSaleStartTime}
                         saleEndTime = {saleEndTime}
                         setSaleEndTime = {setSaleEndTime}
+                        voteStartTime = {voteStartTime}
+                        voteEndTime = {voteEndTime}
+                        setVoteStartTime = {setVoteStartTime}
+                        setVoteEndTime = {setVoteEndTime}
                         tokenDecimal = {tokenDecimal}
                         setTokenDecimal = {setTokenDecimal}
                         unsoldTokenAddress = {unsoldTokenAddress}
